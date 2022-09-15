@@ -1,0 +1,255 @@
+.member-status-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.member-status {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.sidebar-online-status {
+  color: rgb(19, 230, 19);
+}
+
+.sidebar-offline-status {
+  color: rgb(160, 160, 149);
+}
+
+.sidebar-offline-status,
+.sidebar-online-status {
+  font-size: 11px;
+  position: absolute;
+  z-index: 99;
+  bottom: 0;
+  left: 12px;
+}
+
+.user-remove {
+  border: none;
+  cursor: pointer;
+}
+
+.member-status-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.member-status {
+  margin-bottom: 0;
+  position: relative;
+}
+
+
+.sidebar-offline-status,
+.sidebar-online-status {
+  font-size: 11px;
+  position: absolute;
+  z-index: 99;
+  bottom: 0;
+  left: 12px;
+}
+
+.list-item {
+  background-color: black;
+}
+
+.white-span {
+  margin-left: 0.5rem;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.members {
+  background-color: black;
+}
+
+.members-tag {
+  margin-top: 27px;
+  background: 50% 100% / 50% 50% no-repeat
+    radial-gradient(ellipse at bottom, #024249, transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 35px;
+  font-family: "Source Sans Pro", sans-serif;
+  animation: reveal 5000ms ease-in-out forwards 200ms,
+    glow 6000ms linear infinite 2000ms;
+}
+
+@keyframes reveal {
+  80% {
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px rgb(0, 249, 12);
+  }
+}
+
+.rooms-tag {
+  margin-top: 15px;
+  background: 50% 100% / 50% 50% no-repeat
+    radial-gradient(ellipse at bottom, #01490f, transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 35px;
+  font-family: "Source Sans Pro", sans-serif;
+  animation: reveal 5000ms ease-in-out forwards 200ms,
+    glow 6000ms linear infinite 2000ms;
+}
+
+@keyframes reveal {
+  80% {
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px rgb(189, 185, 185);
+  }
+}
+.grouplist {
+  text-align: justify;
+  overflow-y: scroll;
+  height: fit-content;
+  max-height: 43vh;
+}
+.list-full {
+  max-height: 53px;
+  border-radius: 3px;
+  margin-bottom: 2px;
+}
+
+.grouplist::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+.grouplist::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.grouplist::-webkit-scrollbar-thumb {
+  background-color: rgb(101, 96, 96);
+  outline: 1px solid slategrey;
+}
+
+.dropdown_data {
+  height: 35vh;
+  width: 22vw;
+}
+
+.dropdown__data {
+  height: auto;
+  max-height: 55vh;
+  overflow-y: scroll;
+  width: 14vw;
+}
+
+.dropdown__data::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+.dropdown__data::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown__data::-webkit-scrollbar-thumb {
+  background-color: rgb(101, 96, 96);
+  outline: 1px solid slategrey;
+}
+
+.field_input {
+  margin-left: 4vw;
+  width: 15vw;
+  height: 4vh;
+}
+
+.name_label {
+  margin-left: 4vw;
+}
+
+.add__user {
+  background-color: black;
+}
+
+.member-status-img2 {
+  width: 1.3vw;
+  height: 3vh;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.dropdown__add {
+  margin-top: 3.5vh;
+  margin-left: 4vw;
+}
+
+.Create_group {
+  margin-top: 6vh;
+  margin-left: 5vw;
+}
+
+.rooms_box {
+  height: fit-content;
+  max-height: 22vh;
+  overflow-y: scroll;
+}
+
+.rooms_box::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+.rooms_box::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.rooms_box::-webkit-scrollbar-thumb {
+  background-color: rgb(101, 96, 96);
+  outline: 1px solid slategrey;
+}
+
+.rooms_name {
+  background-color: rgb(251, 248, 242);
+  margin-bottom: 0.3vh;
+}
+
+.add-member {
+  margin-top: 1vh;
+}
+
+.room-remove {
+  cursor: pointer;
+  height: 2vh;
+  width: 1vw;
+}
+
+
+.members_div{
+  display: flex;
+}
+
+.form_search{
+  margin-top: 5vh;
+}
+
+.online_icon{
+  margin-left: 4.5vw;
+}
+.member_name_text{
+  margin-left: 2vw;
+  font-size: 0.9vw;
+}

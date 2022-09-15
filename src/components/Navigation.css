@@ -1,0 +1,47 @@
+.Chat-label {
+  margin-top: 0;
+  font-size: x-large;
+  margin-right: 0;
+}
+
+.login-tag {
+  color: whitesmoke;
+  font-size: x-large;
+  margin-right: 10px;
+}
+
+.navbar {
+  background-color: rgb(48, 76, 100);
+}
+
+.dropdown {
+  margin-right: 40px;
+  font-size: x-large;
+}
+
+.Login-click {
+  font-size: x-large;
+  margin-bottom: 15px;
+}
+
+.logo-nust {
+  margin-left: 10px;
+}
+
+.chat-text {
+  color: whitesmoke;
+  font-size: x-large;
+  margin-right: 10px;
+}
+
+.chat-text:hover {
+  color: rgb(39, 158, 205);
+}
+
+.user-text {
+  color: rgb(126, 188, 197);
+}
+
+.change-tag{
+  color: white;
+}

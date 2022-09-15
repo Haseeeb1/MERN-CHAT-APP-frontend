@@ -1,0 +1,54 @@
+.login__bg {
+    background-image: url("../assets/5a.jpg");
+    height: 87vh;
+    margin-top: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+  }
+  body{
+    background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
+  }
+  
+  .login_text{
+      position: relative;
+      text-shadow: -15px 5px 20px #ced0d3;
+      color: rgb(26, 12, 12);
+      letter-spacing: -0.05em;
+      font-family: 'Anton', Arial, sans-serif;
+      user-select: none;
+      font-size: 5vh;
+      transition: all 0.25s ease-out;
+      margin-bottom: 3vh;
+  }
+  .login_text:hover {
+    color: white;
+      text-shadow: -16px 6px 15px #ced0d3;
+  }
+
+  .updated_tag{
+    font-size: 3.5vh;
+    color: green;
+    animation: 2s anim-flipX ease infinite;
+}
+@keyframes anim-flipX {
+  0% {
+    opacity: 0;
+    transform: rotateX(90def);
+  }
+  50% {
+    opacity: 1;
+    transform: rotateX(720deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(720deg);
+  }
+}
+
+  .invalid_tag{
+     font-size: 2.4vh;
+     color: red;
+
+  }

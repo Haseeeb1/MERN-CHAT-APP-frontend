@@ -1,0 +1,129 @@
+.messages-output {
+  margin-top: 10px;
+  height: 75vh;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  overflow-y: scroll;
+  margin-bottom: 4.5px;
+  background: linear-gradient(#f5f7fa, #b8c6db);
+}
+
+.messages-output::-webkit-scrollbar {
+  width: 0.3em;
+}
+
+.messages-output::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.messages-output::-webkit-scrollbar-thumb {
+  background-color: rgb(101, 96, 96);
+  outline: 1px solid slategrey;
+}
+
+.message-inner {
+  margin-left: 20px;
+  margin-bottom: 7px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+  min-width: 23vh;
+  max-width: 90%;
+  text-align: left;
+  min-height: 50px;
+  font: 400 1em, sans-serif;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #d1e7dd;
+}
+
+.incoming-message .message-inner {
+  background-color: #ffdab9;
+}
+
+.incoming-message {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.message-timestamp-left {
+  font-size: 11px;
+  font-weight: 50;
+  margin-top: 10px;
+}
+
+.message-sender {
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+
+.message-date-indicator {
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.conversation-info {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  height: px;
+  margin-bottom: 5px;
+}
+
+.button-fly {
+  height: 53px;
+  margin-left: -40px;
+}
+
+.message-box {
+  height: 55px;
+  width: 49.5vw;
+}
+
+.message-content {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: -6px;
+  margin-bottom: 0;
+}
+
+.file-icon {
+  margin-left: 5px;
+  border-width: 2px;
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(61, 134, 194);
+}
+
+.attach {
+  margin-top: -50px;
+  margin-left: 20px;
+}
+
+.submit-button {
+  height: 25px;
+  margin-left: 20px;
+  margin-top: -35px;
+  font-size: x-small;
+}
+
+.filename {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(154, 96, 21);
+  text-decoration: none;
+}
+
+.tagfile {
+  margin-bottom: -2px;
+}
+
+.trash_icon {
+  color: rgb(177, 49, 49);
+  margin-left: 7vw;
+  font-size: 1.3vh;
+  cursor: pointer;
+}
