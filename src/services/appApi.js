@@ -10,7 +10,8 @@ const appApi = createApi({
         url: "/users",
         method: "POST",
         body: user,
-        credentials: "include",
+        credentials: 
+        "include",
       }),
     }),
     loginUser: builder.mutation({
