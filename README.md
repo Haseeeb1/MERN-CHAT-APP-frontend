@@ -16,7 +16,7 @@ FEATURES LIST OF THIS WEBPAGE/CHAT PAGE:
 
 7).Sent or recieved file can be viewed(if browser supports) or downloaded on one click
 
-8).No file storage limit (Used multer)
+8).No file storage limit (Using multer)
 
 9).Multer stores the uploaded files in server
 
